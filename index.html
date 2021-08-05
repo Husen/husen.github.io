@@ -57,7 +57,8 @@
   <section class="jumbotron text-center">
     <img src="img/me.jpg" width="200px" alt="Saidina Husen" class="rounded-circle img-thumbnail" />
     <h1 class="display-4">Saidina Husen</h1>
-    <p class="lead"></p>
+    <p class="blockquote"></p>
+    <p class="blockquote-footer"></p>
     <!-- Gelombang -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
@@ -78,10 +79,9 @@
       <div class="row justify-content-center fs-5 text-center">
         <div class="col-md-8" data-aos="fade-in" data-aos-offset="470">
           <p>
-            Saya seorang mahasiswa jurusan Teknik Informatika memiliki kemampuan pemrograman web, memiliki pengalaman
-            membangun aplikasi web e - commerce pada tugas Analisis Perancangan Sistem, dan membangun aplikasi web
-            profil dan
-            pendaftaran pada tugas Kerja Praktek.
+            I am a student majoring in Informatics Engineering who has web programming skills, has experience building
+            e-commerce web applications on System Design Analysis assignments, and builds profile and registration web
+            applications on Job Training assignments.
           </p>
         </div>
       </div>
@@ -107,8 +107,8 @@
           <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
             <img src="img/1.png" class="card-img-top" alt="Project" />
             <div class="card-body">
-              <p class="card-text">Tampilan halaman depan pada website profil Yayasan Hikmatun Nashr Project Kerja
-                Praktek (KP) - 2021</p>
+              <p class="card-text">Display of the front end on the Hikmatun Nashr Foundation Project Job Training
+                profile website - 2021</p>
             </div>
           </div>
         </div>
@@ -118,8 +118,8 @@
             data-aos-delay="100">
             <img src="img/2.png" class="card-img-top" alt="Project" />
             <div class="card-body">
-              <p class="card-text">Tampilan halaman belakang pada website profil Yayasan Hikmatun Nashr Project Kerja
-                Praktek (KP) - 2021</p>
+              <p class="card-text">Display of the back end on the Hikmatun Nashr Foundation Project Job Training
+                profile website - 2021</p>
             </div>
           </div>
         </div>
@@ -129,8 +129,8 @@
             data-aos-delay="200">
             <img src="img/3.png" class="card-img-top" alt="Project" />
             <div class="card-body">
-              <p class="card-text">Tampilan website latihan menggunakan Codeigniter 3 Project Tugas Besar Praktikun Web
-                - 2019</p>
+              <p class="card-text">Display of the exercise website using Codeigniter 3 Project Web Practicum Big
+                Assignment - 2019</p>
             </div>
           </div>
         </div>
@@ -140,8 +140,7 @@
             data-aos-delay="300">
             <img src="img/4.png" class="card-img-top" alt="Project" />
             <div class="card-body">
-              <p class="card-text">Tampilan website Click-Design Sablon pada Project Analisis Perancangan Sistem (APSI)
-                - 2020</p>
+              <p class="card-text">Website Design Click Screen Printing on System Design Analysis Project - 2020</p>
             </div>
           </div>
         </div>
@@ -151,7 +150,7 @@
             data-aos-delay="400">
             <img src="img/5.png" class="card-img-top" alt="Project" />
             <div class="card-body">
-              <p class="card-text">Tampilan website Portfolio Saya - 2021</p>
+              <p class="card-text">My Portfolio Website - 2021<br><br></p>
             </div>
           </div>
         </div>
@@ -258,7 +257,7 @@
               <label for="email" class="form-label">Message</label>
               <textarea class="form-control" name="pesan" id="pesan" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary btn-kirim" data-aos="flip-left">Kirim</button>
+            <button type="submit" class="btn btn-primary btn-kirim" data-aos="flip-left">Send</button>
 
             <button class="btn btn-primary btn-loading d-none" type="button" disabled>
               <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -313,7 +312,8 @@
   <script>
     gsap.registerPlugin(TextPlugin);
     gsap.to('.navbar-brand', { duration: 2, delay: 1.5, text: 'My Portfolio' });
-    gsap.to('.lead', { duration: 2, delay: 3.5, text: 'Mahasiswa | Teknik Informatika' });
+    gsap.to('.blockquote', { duration: 2, delay: 6.5, text: 'Suryakancana University, Cianjur' });
+    gsap.to('.blockquote-footer', { duration: 2, delay: 3.5, text: 'Informatics Engineering Student' });
     gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
     gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
     gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'elastic' });
